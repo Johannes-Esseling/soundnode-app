@@ -1,5 +1,5 @@
 .user {
-    padding: 10px 0 0;
+    padding: 5px 0 0;
     overflow: hidden;
 }
 
@@ -9,7 +9,6 @@
     display: block;
     border-radius: 50px;
     float: left;
-    cursor: pointer;
     -webkit-user-drag: none;
 }
 
@@ -31,6 +30,7 @@
 
 .user_logOut {
     font-size: 10px;
+    cursor: pointer;
 }
 
 .user_info {

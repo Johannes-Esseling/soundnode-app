@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import HeaderActions from './header/headerActions.jsx';
-import SettingsNav from './header/settingsNav.jsx';
+import ClosingBar from './header/closingBar.jsx';
 
 // because of https://github.com/babel/babel/issues/2700
 // writing components using ES2015 class won't work
@@ -22,6 +22,6 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-    <SettingsNav />,
-    document.querySelector('.settingsApp')
+    <ClosingBar />,
+    document.querySelector('.closingBar')
 );

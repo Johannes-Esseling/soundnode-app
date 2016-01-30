@@ -147,7 +147,7 @@
 
     &.active {
         .fa {
-            color: #f50;
+            color: $scColor;
         }
     }
 }
@@ -200,7 +200,7 @@
             float: right;
             height: 12px;
             width: 12px;
-            background: rgb(255, 122, 0);
+            background: $scColor;
             border-radius: 50%;
             box-shadow: 0 0 2px 0 #000;
             transform: scale(0);
